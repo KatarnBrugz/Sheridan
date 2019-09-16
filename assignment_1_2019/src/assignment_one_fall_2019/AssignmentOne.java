@@ -1,3 +1,12 @@
+/*
+ * Name: Kyle Brugmans
+ * Assignment: #1 Fall 2019
+ * Program: Computer Programming
+ * 
+ * This program shows basic understandings
+ * of using print and println.
+ */
+
 package assignment_one_fall_2019;
 
 public class AssignmentOne {
