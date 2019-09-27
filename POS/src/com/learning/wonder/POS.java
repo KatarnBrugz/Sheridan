@@ -11,21 +11,6 @@ import java.util.Scanner;
 
 public class POS {
 	
-	public static void midPoint() {
-		
-		double PX = 2;
-		double PY = 1;
-		
-		double QX = 5.5;
-		double QY = 7.5;
-		
-		double answer1 = (QX+PX)/2;;
-		double answer2 = (QY+PY)/2;
-		
-		System.out.printf("The midpoint of the line is (%1.1f), (%1.1f)",
-				answer1, answer2);
-	}
-	
 	public static void catalog() {
 		
 		String catalog[] = {null,"Notebook", "Pencil", "iPhone"};
