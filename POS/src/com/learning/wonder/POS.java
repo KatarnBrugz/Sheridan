@@ -43,18 +43,22 @@ public class POS {
 		
 		int userInput = myObj.nextInt();
 		
-			if (userInput == 1) {
+			switch(userInput) {
+			case 1:
 				System.out.println(boarder+itemChosen+catalog[1]+boarder);
-			} else if (userInput == 2) {
+				break;
+			case 2:
 				System.out.println(boarder+itemChosen+catalog[2]+boarder);
-			} else if (userInput == 3) {
+				break;
+			case 3:
 				System.out.println(boarder+itemChosen+catalog[3]+boarder);
-			} else {
+				break;
+			default:
 				System.out.println
 				("\nERROR ITEM CODE: "+userInput+
 				" DOES NOT EXIST\n");
 				catalog();
-		}
+			}
 		
 	}
 	
