@@ -21,6 +21,8 @@ public class EqualChecker {
 	
 	static void inputNumbers() {
 		
+		System.out.println("Enter any two numbers:");
+		
 		Scanner userNumberScanner
 		= new Scanner(System.in);
 		
