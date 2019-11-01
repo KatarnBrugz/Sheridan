@@ -1,3 +1,12 @@
+/*
+ * Name: Kyle Brugmans
+ * Assignment: #3 Fall 2019
+ * Program: Computer Programming
+ * 
+ * Takes two number inputs, checking to see
+ * if the numbers are equal.
+ */
+
 package assignment_3_2019;
 
 import java.util.Scanner;
